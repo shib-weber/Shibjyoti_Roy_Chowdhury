@@ -549,6 +549,14 @@ input {
         margin-left: 0;
         margin-top: 5px;
     }
+    .pname{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .pcomment{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
     .headt{
         top: -1rem;
         scale: 0.7;
