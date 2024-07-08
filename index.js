@@ -20,7 +20,9 @@ app.use(express.json())
 app.set('view engine','ejs')
 app.set('views',path.resolve('./views'))
 
-mongoose.connect('mongodb://127.0.0.1:27017/feedback').then(console.log("database connected"))
+const MongoURI= process.env.MONGODB_URI;
+
+mongoose.connect(MongoURI, {}).then(console.log("database connected"))
 
 app.use(router)
 
