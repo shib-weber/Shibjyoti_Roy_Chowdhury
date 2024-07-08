@@ -489,6 +489,7 @@ input {
     }
 
     .stp, .Chat, .gov {
+        color: transparent;
         margin-left: -1rem;
         scale: 0.8;
         width: 400px;
@@ -496,18 +497,21 @@ input {
     }
 
     .visibilitys {
+        color: white;
         margin-top: -5rem;
         width: 400px;
         height: 1200px;
         font-size: medium;
     }
     .visibilityc{
+        color: white;
         margin-top: -5rem;
         width: 400px;
         height: 1450px;
         font-size: medium;
     }
     .visibilityg{
+        color: white;
         margin-top: -5rem;
         width: 400px;
         height: 1000px;
@@ -532,8 +536,8 @@ input {
     .pfeed {
         padding: 5px;
         margin: 5px 0;
-        width: 80%; /* Ensure it takes up full width */
-        box-sizing: border-box; /* Include padding and border in the width */
+        width: 80%; 
+        box-sizing: border-box; 
     }
 
     .star-rating {
